@@ -1,22 +1,10 @@
-import React from "react";
-import { TestDataCompany } from "../Table/TestData";
+interface Props {
+  config: any;
+  data: any;
+}
 
-interface Props {}
-
-const data = TestDataCompany[0];
-
-type Company = typeof data;
-
-const config = [
-  {
-    label: "Company Name",
-    render: (company: Company) => company.companyName,
-    subTitle: "This is the company name",
-  },
-];
-
-const RatioTile = (props: Props) => {
-  const renderedCells = config.map((row) => {
+const RatioTile = ({ config, data }: Props) => {
+  const renderedCells = config.map((row: any) => {
     return (
       <li className="py-3 sm:py-4 list-none">
         <div className="flex items-center space-x-4">
@@ -33,7 +21,7 @@ const RatioTile = (props: Props) => {
     );
   });
 
-  const renderedData = config.map((row) => {
+  const renderedData = config.map((row: any) => {
     return (
       <div className="text-base font-semibold text-grey-900">
         {row.render(data)}

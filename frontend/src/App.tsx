@@ -12,7 +12,6 @@ export default function App() {
         <Navbar />
       <div className="container w-full flex flex-col items-center justify-center gap-y-5">
         <Outlet />
-        <DesignGuide />
       </div>
     </div>
     </>
