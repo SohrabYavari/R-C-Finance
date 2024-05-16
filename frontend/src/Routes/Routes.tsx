@@ -3,10 +3,11 @@ import App from "../App";
 import HomePage from "../Pages/HomePage/HomePage";
 import SearchPage from "../Pages/SearchPage/SearchPage";
 import CompanyPage from "../Pages/CompanyPage/CompanyPage";
-import Companyprofile from "../components/CompanyProfile/CompanyProfile";
+import CompanyProfile from "../components/CompanyProfile/Companyprofile";
 import IncomeStatement from "../components/IncomeStatement/IncomeStatement";
 import DesignGuide from "../Pages/DesignGuide/DesignGuide";
 import BalanceSheet from "../components/BalanceSheet/BalanceSheet";
+import CashFlowStatement from "../components/CashFlowStatement/CashFlowStatement";
 
 export const router = createBrowserRouter([
   {
@@ -15,14 +16,15 @@ export const router = createBrowserRouter([
     children: [
       { path: "", element: <HomePage /> },
       { path: "search", element: <SearchPage /> },
-      { path: "design-guide ", element: <DesignGuide /> },
+      { path: "design-guide", element: <DesignGuide /> },
       {
         path: "company/:ticker",
         element: <CompanyPage />,
         children: [
-          { path: "company-profile", element: <Companyprofile /> },
+          { path: "company-profile", element: <CompanyProfile /> },
           { path: "income-statement", element: <IncomeStatement /> },
           { path: "balance-sheet", element: <BalanceSheet /> },
+          { path: "cashflow-statement", element: <CashFlowStatement /> },
         ],
       },
     ],

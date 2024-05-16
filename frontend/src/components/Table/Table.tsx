@@ -27,12 +27,12 @@ const Table = ({ config, data}: Props) => {
   });
   return (
     <>
-      <div className="overflow-x-auto bg-slate-200">
-        <table className="table min-w-full divide-y">
-          <thead className="">{renderedHeaders}</thead>
-          <tbody>{renderedRows}</tbody>
-        </table>
-      </div>
+      <div className="bg-white shadow rounded-lg p-4 sm:p-6 xl:p-8 ">
+      <table className="min-w-full divide-y divide-gray-200 m-5">
+        <thead className="bg-gray-50">{renderedHeaders}</thead>
+        <tbody>{renderedRows}</tbody>
+      </table>
+    </div>
     </>
   );
 };
