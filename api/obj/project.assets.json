@@ -4465,26 +4465,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Sam Yavari\\.nuget\\packages\\": {}
+    "C:\\Users\\samya\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Sam Yavari\\Desktop\\Code\\InvestIQ\\api\\api.csproj",
+      "projectUniqueName": "C:\\Users\\samya\\OneDrive\\Desktop\\Code\\InvestIQ\\api\\api.csproj",
       "projectName": "api",
-      "projectPath": "C:\\Users\\Sam Yavari\\Desktop\\Code\\InvestIQ\\api\\api.csproj",
-      "packagesPath": "C:\\Users\\Sam Yavari\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Sam Yavari\\Desktop\\Code\\InvestIQ\\api\\obj\\",
+      "projectPath": "C:\\Users\\samya\\OneDrive\\Desktop\\Code\\InvestIQ\\api\\api.csproj",
+      "packagesPath": "C:\\Users\\samya\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\samya\\OneDrive\\Desktop\\Code\\InvestIQ\\api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Sam Yavari\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\samya\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -4497,6 +4495,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -4547,7 +4550,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
